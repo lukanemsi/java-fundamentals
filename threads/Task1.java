@@ -5,7 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-public class Task1 implements Runnable {
+public class Task1 implements Runnable
+{
     private static final int NUM_THREADS = 10;
 
     private static int _from = 0;
@@ -52,12 +53,14 @@ public class Task1 implements Runnable {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException {
-       var s =  generate(0,99999999,12300);
-        for (var i:
-           s  ) {
-            System.out.println(i);
-        }
+    public static void main(String[] args) throws InterruptedException
+    {
+//       var s =  generate(0,99999999,12300);
+//        for (var i:
+//           s  ) {
+//            System.out.println(i);
+
+    }
     }
 
 }
